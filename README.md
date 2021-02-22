@@ -9,7 +9,8 @@
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/jim-schwoebel/allie/blob/master/requirements.txt)
 [![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/jim-schwoebel/allie/issues)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/jim-schwoebel/allie/projects)
-[![License](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![License](https://img.shields.io/badge/license-GPL%20(%3E%3D%202)-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
+
 </p>
 
 The <strong>Vibe API</strong> is an all-purpose eye tracking web app and API for Alzheimer's disease research.
@@ -46,6 +47,8 @@ According to the World Health Organization (WHO), a new case of dementia is diag
 
 ## Solution: eye tracking biomarkers
 Eye tracking has emerged as a low-cost, noninvasive tool to diganose and track Alzheimer's disease symptoms.
+
+Eye movements and pupillary reflex have been used for several decades in neurological disease research. Careful examination of both allows to probe the medial temporal lobe memory system, the cholinergic neuronal pathways, the progressive neuropathological changes within the neocortex, and the brain dopamine activity.
 
 Below are several studies that indicate the effectiveness of using visual biomarkers for characterizing Alzheimer's disease, MCI, and controls:
 
@@ -88,7 +91,7 @@ We hope to address these confounds with additional experiments into the future.
 ## Contributors / Acknowledgements
 First, we'd like to acknowledge the [UW Center for Neurotechnology](http://www.csne-erc.org/) for putting on an awesome virtual hack-a-thon during COVID-19! Without your support none of this work would have been possible - including coordinating user interviews and giving feedback on our report structure.
 
-Second, we would like to sincerely thank the following contributors to this repository include:
+Second, we would like to sincerely thank the following contributors to this repository:
 - [Jim Schwoebel](https://github.com/jim-schwoebel) - created the core survey structure / back-end in Flask/python.
 - [Keaton Armentrout](https://github.com/orgs/nostalgia-cnt/people/ksarmentrout) - helped to get Eyegazer.js up-and-running / recording (through a PR).
 - [Pamel Kang](https://github.com/orgs/nostalgia-cnt/people/pamelkkang) - helped to coordinate what report structures should look like / mock-ups.
@@ -97,16 +100,16 @@ Second, we would like to sincerely thank the following contributors to this repo
 Pull requests are welcome if you'd like to expand our work! 
 
 ## License
-The code in this repository is licensed by the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
+The code in this repository is licensed by the [GPL3 License](https://www.gnu.org/licenses/gpl-3.0.html). Because [Webgazer.js](https://webgazer.cs.brown.edu/) is distributed under this license and it is incorporated, we must license it under this license (we'd prefer [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html) to make it more widely distributed but [we can't](https://softwareengineering.stackexchange.com/questions/197710/how-to-use-gpl-v3-with-apache-license-2-0#:~:text=So%20if%20the%20code%20was,used%20under%20the%20Apace%20license.)).
 
 Some notes:
-* [Eyegazer.js](https://webgazer.cs.brown.edu/) has custom licensing, so check that out if you want to use this commercially.
+* [Webgazer.js](https://webgazer.cs.brown.edu/) has custom licensing, so check that out if you want to use this commercially.
 * Images used in the protocol licensed under creative common license using Google search.
 * Logo was built using Inkscape and is licensed under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## References
 Some other repositorities that you may like to look into include:
-- [eyegazer](https://github.com/brownhci/WebGazer)
+- [webgazer](https://github.com/brownhci/WebGazer)
 - [eyelike](https://github.com/trishume/eyeLike)
 - [pupil](https://github.com/pupil-labs/pupil)
 - [oculomatic](https://github.com/oculomatic/oculomatic-release)
@@ -114,6 +117,7 @@ Some other repositorities that you may like to look into include:
 Research papers that are useful in the space include:
 * [Review article on eye tracking research for AD](https://www.hindawi.com/journals/cmmm/2018/2676409/)
 * [Nature - eye tracking datasets](https://www.nature.com/articles/sdata2016126)
+* [Nature - digital biomarkers for Alzheimer's disease](https://www.nature.com/articles/s41746-019-0084-2)
 
 The most commonly used screening tools for AD diagnosis:
 * [MMSE](https://cgatoolkit.ca/Uploads/ContentDocuments/MMSE.pdf)
